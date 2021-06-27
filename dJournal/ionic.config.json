@@ -1,7 +1,0 @@
-{
-  "name": "dJournal",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "angular"
-}
