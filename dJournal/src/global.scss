@@ -32,6 +32,7 @@
 * {
     font-size: 100%;
     font-family: 'Roboto';
+    background-image: ("../../assets/old-paper-texture.jpg");
 }
 
 $colors: (
@@ -96,4 +97,18 @@ ion-list{
 
 ion-header{
     color: transparent;
+}
+
+
+ion-content {
+    --background: none;
+    background-image: url("./assets/old-paper-texture.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#foo {
+    --background: white;
 }
