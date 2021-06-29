@@ -61,6 +61,8 @@ ion-tab-bar{
     width: 75%;
     padding: 10px;
     text-align: center;
+    background-color: transparent;
+    background: transparent;
   }
 
 ion-label{
@@ -83,16 +85,11 @@ ion-thumbnail{
 }
 
 .center.header{
-    //padding-left: 36.5%;
     position: relative;
     font-size: x-large;
     font-weight: bold;
     text-align: center;
 
-}
-
-ion-list{
-    position: relative;
 }
 
 ion-header{
@@ -106,6 +103,7 @@ ion-content {
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: transparent;
 }
 
 ion-card-content{
@@ -120,12 +118,10 @@ ion-card-subtitle{
     font-weight: bold;
 }
 
-#foo {
-    --background: white;
-}
-
 .blog-img{
     max-width: 75%;
+    position: relative;
+    top: 10px;
 }
 
 .blog-video{
@@ -159,3 +155,28 @@ ion-button{
   .swiper-container-horizontal>.swiper-pagination-bullets {
     bottom: 5%!important;
   }
+
+  ion-list {
+    background: transparent;
+
+    ion-item {
+        --background: inherit;
+    }
+}
+ion-card {
+    //--background: dark;
+    color: warning;
+    opacity: 3;
+}
+
+.labeltext{
+    font-size: x-large;
+    font-weight: bold;
+    width: 50%;
+}
+
+ion-card-content{
+    font-weight: normal;
+    color: rgb(22, 18, 18);
+
+}
