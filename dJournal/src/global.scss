@@ -47,7 +47,7 @@ ion-tab-bar{
 
 .center {
     margin: auto;
-    width: 75%;
+    width: 90%;
     padding: 10px;
     text-align: center;
     background-color: transparent;
@@ -55,7 +55,7 @@ ion-tab-bar{
   }
 
 ion-label{
-    width: 50%;
+    
     text-align: center;
 }
 
@@ -152,23 +152,19 @@ ion-button{
     }
 }
 ion-card {
-    //--background: dark;
     color: warning;
     opacity: 3;
 }
 
 .labeltext{
-    font-size: x-large;
     font-weight: bold;
-    width: 50%;
+    font-size:3vw;
+    text-align: center;
+    font-size-adjust: 0.58;
 }
 
 ion-card-content{
     font-weight: normal;
     color: rgb(22, 18, 18);
 
-}
-
-.buttonlabel{
-    width: 50%;
 }
