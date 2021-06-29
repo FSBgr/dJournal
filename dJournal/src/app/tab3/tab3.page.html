@@ -13,6 +13,15 @@
     </ion-toolbar>
   </ion-header>
 
+
+  <button (click)="this.Slides.slidePrev()" class="backBtn"> 
+    <ion-icon name="arrow-back"></ion-icon> 
+  </button>
+ 
+ <button (click)="this.Slides.slideNext()" class="nextBtn"> 
+    <ion-icon name="arrow-forward">
+  </ion-icon> </button>
+
   <ion-content>
     <ion-slides pager="true">
       <ion-slide>
@@ -29,7 +38,5 @@
     
     </ion-slides>
   </ion-content>
-
-  <ion-button href="#">Anchor</ion-button>
 
 </ion-content>
