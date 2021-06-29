@@ -142,3 +142,20 @@ ion-button{
     background-image: url("./assets/old-paper-texture.jpg");
     color: transparent;
 }
+
+.swiper-pagination-bullet {
+    --bullet-background: black;
+    --bullet-background-active: red;
+    width: 12px;
+    height: 12px;
+  }
+
+  .swiper-pagination-bullet-active {
+      width: 12px;
+      height: 12px;
+     --bullet-background: transparent;
+  }
+
+  .swiper-container-horizontal>.swiper-pagination-bullets {
+    bottom: 5%!important;
+  }
