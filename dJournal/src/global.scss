@@ -108,7 +108,23 @@ ion-content {
     background-size: cover;
 }
 
+ion-card-content{
+    font-size: xx-small;
+}
+
+ion-card-title{
+    font-weight: bold;
+}
+
+ion-card-subtitle{
+    font-weight: bold;
+}
 
 #foo {
     --background: white;
+}
+
+.blog-img{
+    max-width: 50%;
+
 }
